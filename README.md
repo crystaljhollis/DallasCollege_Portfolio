@@ -23,7 +23,7 @@ This repository contains my coursework and projects completed during my studies 
 - **MATH2414_CalculusII**: Advanced integration techniques and applications.
 - **ENGR2300_AppliedLinearAlgebra**: Linear algebra concepts in engineering contexts. SPRING 2025
 
-### Environmental and Science Courses:
+### Public Health and Science Courses:
 - **PHED1304_PersonalCommunityHealth**: Overview of Public Health, Community and Personal health principles. SPRING 2025
 
 ## Purpose
