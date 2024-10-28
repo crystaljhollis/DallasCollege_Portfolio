@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/advertisingConditional/advertisingConditional.iml" filepath="$PROJECT_DIR$/advertisingConditional/advertisingConditional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nameAgeAnnualIncome/nameAgeAnnualIncome.iml" filepath="$PROJECT_DIR$/nameAgeAnnualIncome/nameAgeAnnualIncome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/variables.iml" filepath="$PROJECT_DIR$/variables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/variablesAssignment/variablesAssignment.iml" filepath="$PROJECT_DIR$/variablesAssignment/variablesAssignment.iml" />
+    </modules>
+  </component>
+</project>
