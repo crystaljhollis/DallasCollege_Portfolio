@@ -1,4 +1,4 @@
-# DallasCollege_Portfolio
+# Dallas College Portfolio
 
 This repository contains my coursework and projects completed during my studies at Dallas College. The portfolio showcases my journey through programming, mathematics, GIS, and Community Health, emphasizing problem-solving skills and practical applications across different disciplines.
 
