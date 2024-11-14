@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Modules/unit05/BarChart/BarChart.iml" filepath="$PROJECT_DIR$/Modules/unit05/BarChart/BarChart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/unit08/TextAdventure/TextAdventure.iml" filepath="$PROJECT_DIR$/Modules/unit08/TextAdventure/TextAdventure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/unit02/unit02-projects/advertisingConditional/advertisingConditional.iml" filepath="$PROJECT_DIR$/Modules/unit02/unit02-projects/advertisingConditional/advertisingConditional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/unit06/celsiusTable/celsiusTable.iml" filepath="$PROJECT_DIR$/Modules/unit06/celsiusTable/celsiusTable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/unit05/guessingGame/guessingGame.iml" filepath="$PROJECT_DIR$/Modules/unit05/guessingGame/guessingGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/unit01/hello/hello.iml" filepath="$PROJECT_DIR$/Modules/unit01/hello/hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/unit08/magicEight/magicEight.iml" filepath="$PROJECT_DIR$/Modules/unit08/magicEight/magicEight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/unit03/magicNumbers/magicNumbers.iml" filepath="$PROJECT_DIR$/Modules/unit03/magicNumbers/magicNumbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/unit02/unit02-projects/nameAgeAnnualIncome/nameAgeAnnualIncome.iml" filepath="$PROJECT_DIR$/Modules/unit02/unit02-projects/nameAgeAnnualIncome/nameAgeAnnualIncome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/unit06/priceCalculator/priceCalculator.iml" filepath="$PROJECT_DIR$/Modules/unit06/priceCalculator/priceCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/unit06/primeTime/primeTime.iml" filepath="$PROJECT_DIR$/Modules/unit06/primeTime/primeTime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/unit03/romans/romans.iml" filepath="$PROJECT_DIR$/Modules/unit03/romans/romans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/unit05/sumOfNumbers/sumOfNumbers.iml" filepath="$PROJECT_DIR$/Modules/unit05/sumOfNumbers/sumOfNumbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/unit02/unit02-projects/variablesAssignment/variablesAssignment.iml" filepath="$PROJECT_DIR$/Modules/unit02/unit02-projects/variablesAssignment/variablesAssignment.iml" />
+    </modules>
+  </component>
+</project>

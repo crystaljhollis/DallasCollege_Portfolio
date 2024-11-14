@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="unit08">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Modules/unit08/kotlinTextAdventurePseudocode.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Modules/unit08/PseudocodeMagic8Ballkotlin.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
