@@ -1,7 +1,3 @@
-Here’s a sample README you can copy and paste for your project:
-
----
-
 # Maternal Mortality Analysis
 
 ## Overview
