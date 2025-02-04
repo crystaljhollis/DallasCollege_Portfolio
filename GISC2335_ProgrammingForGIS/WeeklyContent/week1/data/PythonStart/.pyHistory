@@ -1,0 +1,52 @@
+﻿arcpy.management.GetCount("ambulances")
+print("GIS is cool")
+x = 37
+y = 73
+x * y
+F = 9/5 * C + 32
+temp_c = 17
+temp_f = temp_c * 9 / 5 + 32
+print(temp_f)
+arcpy.management.GetCount('ambulances')
+templist_c = [17, 19, 24, 21, 16]
+for temp_c in templist_c:     temp_f = temp_c * 9 / 5 + 32     print(temp_f)
+count = arcpy.management.GetCount('ambulances')
+print(count)
+count = arcpy.management.GetCount('C:/ProgrammingProjects/GISC2335_ProgrammingForGIS/WeeklyContent/week1/data/PythonStart/ambulances.shp')
+print(count)
+count = arcpy.management.GetCount(r'C:\ProgrammingProjects\GISC2335_ProgrammingForGIS\WeeklyContent\week1\data\PythonStart\ambulances.shp')
+print(count)
+arcpy.env.workspace = r"C:\ProgrammingProjects\GISC2335_ProgrammingForGIS\WeeklyContent\week1\data\PythonStart"
+count = arcpy.management.GetCount('ambulances.shp')
+print(count)
+fc_list = arcpy.ListFeatureClasses()
+print(fc_list)
+for fc in fc_list:     count = arcpy.management.GetCount(fc)     print(count)
+print("GIS is cool")
+x = 37
+y = 73
+x * y
+X*y
+temp_c = 17
+temp_f = temp_c * 9 / 5 + 32
+print(temp_f)
+17 * 9 /5 + 32
+templist_c = [17, 19, 24, 21, 16]
+for temp_c in templist_c:     temp_f = temp_c * 9 / 5 + 32     print(temp_f)
+count = arcpy.management.GetCount("ambulances")
+print(count)
+count = arcpy.management.GetCount(r"C:\ProgrammingProjects\GISC2335_ProgrammingForGIS\WeeklyContent\week1\data\PythonStart\ambulances.shp")
+print(count)
+arcpy.env.workspace = r"C:\ProgrammingProjects\GISC2335_ProgrammingForGIS\WeeklyContent\week1\data\PythonStart\ambulances.shp"
+count = arcpy.management.GetCount("ambulances.shp")
+print(count)
+fc_list = arcpy.ListFeatureClasses()
+print(fc_list)
+fc_list = arcpy.ListFeatureClasses()
+print(fc_list)
+arcpy.env.workspace = r"C:\ProgrammingProjects\GISC2335_ProgrammingForGIS\WeeklyContent\week1\data\PythonStart"
+count = arcpy.management.GetCount('ambulances')
+print(count)
+fc_list = arcpy.ListFeatureClasses()
+print(fc_list)
+for fc in fc_list:     count = arcpy.management.GetCount(fc)     print(count)
