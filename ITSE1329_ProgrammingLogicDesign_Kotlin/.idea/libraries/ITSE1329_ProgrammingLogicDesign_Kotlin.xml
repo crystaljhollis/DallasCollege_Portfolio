@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="ITSE1329_ProgrammingLogicDesign_Kotlin" type="kotlin.js">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/Modules" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/Modules" />
+      <root url="file://$PROJECT_DIR$/Modules/unit01/hello/src" />
+      <root url="file://$PROJECT_DIR$/Modules/unit02/unit02-projects/advertisingConditional/src" />
+      <root url="file://$PROJECT_DIR$/Modules/unit02/unit02-projects/nameAgeAnnualIncome/src" />
+      <root url="file://$PROJECT_DIR$/Modules/unit02/unit02-projects/variablesAssignment/src" />
+      <root url="file://$PROJECT_DIR$/Modules/unit03/magicNumbers/src" />
+      <root url="file://$PROJECT_DIR$/Modules/unit03/romans/src" />
+      <root url="file://$PROJECT_DIR$/Modules/unit05/BarChart/src" />
+      <root url="file://$PROJECT_DIR$/Modules/unit05/guessingGame/src" />
+      <root url="file://$PROJECT_DIR$/Modules/unit05/sumOfNumbers/src" />
+      <root url="file://$PROJECT_DIR$/Modules/unit06/celsiusTable/src" />
+      <root url="file://$PROJECT_DIR$/Modules/unit06/priceCalculator/src" />
+      <root url="file://$PROJECT_DIR$/Modules/unit06/primeTime/src" />
+      <root url="file://$PROJECT_DIR$/Modules/unit08/TextAdventure/src" />
+      <root url="file://$PROJECT_DIR$/Modules/unit08/magicEight/src" />
+    </SOURCES>
+  </library>
+</component>
