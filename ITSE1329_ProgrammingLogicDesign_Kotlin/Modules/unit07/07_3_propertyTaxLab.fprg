@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="CrystalHollis"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-11 11:02:39 AM"/>
+        <attribute name="created" value="Q3J5c3RhbEhvbGxpcztNQUdOQS1XT1JLU1RBVEk7MjAyMy0wOC0xMTsxMDoxMDozMiBBTTszNzIz"/>
+        <attribute name="edited" value="Q3J5c3RhbEhvbGxpcztNQUdOQS1XT1JLU1RBVEk7MjAyMy0wOC0xMTsxMTowMjozOSBBTTsxOzM4NDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Introduction"/>
+            <output expression="&quot;Welcome to the Dallas County Property Tax Calculator!&quot;" newline="True"/>
+            <comment text="Function to prompt the user for Property Value"/>
+            <call expression="getPropertyValue()"/>
+            <comment text="Function to compute the Assessment Value and Property Tax"/>
+            <call expression="computeTax()"/>
+        </body>
+    </function>
+    <function name="computeTax" type="Real" variable="assessmentValue">
+        <parameters>
+            <parameter name="propertyValue" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="assessmentValue" type="Real" array="False" size=""/>
+            <declare name="tax" type="Real" array="False" size=""/>
+            <assign variable="assessmentValue" expression="propertyValue + 0.6"/>
+            <assign variable="tax" expression="(assessmentValue / 100) * 0.64"/>
+            <output expression="&quot;Assessment Value: &quot; + ToFixed(assessmentValue, 2)" newline="True"/>
+            <output expression="&quot;Property Tax: &quot; + ToFixed(tax, 2)" newline="True"/>
+        </body>
+    </function>
+    <function name="getPropertyValue" type="Real" variable="propertyValue">
+        <parameters/>
+        <body>
+            <declare name="propertyValue" type="Real" array="False" size=""/>
+            <output expression="&quot;Please enter the Property Value:&quot;" newline="True"/>
+            <input variable="propertyValue"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="CrystalHollis"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-11 10:09:29 AM"/>
+        <attribute name="created" value="Q3J5c3RhbEhvbGxpcztNQUdOQS1XT1JLU1RBVEk7MjAyMy0wOC0xMTswOToxNzoxMiBBTTszNzM2"/>
+        <attribute name="edited" value="Q3J5c3RhbEhvbGxpcztNQUdOQS1XT1JLU1RBVEk7MjAyMy0wOC0xMTsxMDowOToyOSBBTTsxOzM4NDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Introduction"/>
+            <output expression="&quot;Celsius to Fahrenheit Conversion Calculator&quot;" newline="True"/>
+            <comment text="Variables F for Fahrenheit and C for Celsius"/>
+            <declare name="C" type="Real" array="False" size=""/>
+            <declare name="F" type="Real" array="False" size=""/>
+            <comment text="Prompt user to input Celsius value"/>
+            <output expression="&quot;Please enter the temperature in Celsius (Up to three decimal points)&quot;" newline="True"/>
+            <input variable="C"/>
+            <comment text="Calculates Fahrenheit using Celsius"/>
+            <assign variable="F" expression="((C * 9 / 5) + 32)"/>
+            <comment text="Outputs calculation. Should display &#13;&#10;number&#176; Celsius = number&#176; Fahrenheit"/>
+            <output expression="ToFixed(C,3) &amp; &quot;&#176; Celsius = &quot; &amp; ToFixed(F,3) &amp; &quot;&#176; Fahrenheit&quot;" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,71 @@
+//Your first task is to solve a simple story-problem in Karel's world. Suppose that Karel has settled into its house, which is the square area in the center of the image below.Illustration of Karel the Robot picking up a newspaper.
+//Karel starts off in the northwest corner of its house as shown in the diagram. The problem you need to solve is to get Karel to collect the newspaper. The newspaper, like all objects in Karel's world, is represented by a beeper. You must get Karel to pick up the newspaper located outside the doorway and then to return to its initial position.
+//This exercise is simple and is meant to help you get you started programming with Karel. You can assume that every part of the world looks just as it does in the diagram: the house is exactly this size, the door is always in the position shown, and the beeper is just outside the door. Thus, all you have to do is write the sequence of commands necessary to have Karel:
+//Move to the newspaper,
+//Pick it up, and
+//Return to its starting point.
+//Although the program does not have many lines of code, it is still worth getting some practice with decomposition. In your solution, write at least two helper functions: one for step 1 and another for step 3 in the outline above. You're welcome to write a helper function for step 2 as well, but since picking up a beeper is only one line of code, it's okay to do this step without a helper function.
+
+//Without Helper functions
+function main(){
+   move();
+   move();
+   turnLeft();
+   turnLeft();
+   turnLeft();
+   move();
+   turnLeft();
+   move();
+   pickBeeper();
+   turnLeft();
+   turnLeft();
+   move();
+   move();
+   turnLeft();
+   turnLeft();
+   turnLeft();
+   move();
+   putBeeper();
+   turnLeft();
+   move();
+   turnLeft();
+   turnLeft();
+}
+
+
+//with Helper functions
+// Helper function for step 1: Move to the newspaper
+function moveToNewspaper() {
+   move();
+   move();
+   turnLeft();
+   turnLeft();
+   turnLeft();
+   move();
+   turnLeft();
+   move();
+}
+
+// Helper function for step 3: Return to the starting point
+function returnToStartingPoint() {
+   turnLeft();
+   turnLeft();
+   move();
+   move();
+   turnLeft();
+   turnLeft();
+   turnLeft();
+   move();
+   putBeeper();
+   turnLeft();
+   move();
+   turnLeft();
+   turnLeft();
+}
+
+// Main function calling together the helper functions
+function main() {
+   moveToNewspaper();
+   pickBeeper();
+   returnToStartingPoint();
+}

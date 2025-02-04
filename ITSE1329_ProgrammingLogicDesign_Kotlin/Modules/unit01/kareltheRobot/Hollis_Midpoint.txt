@@ -1,0 +1,73 @@
+//The beginning state for MidpointKarel in a 5x5 world, bottom left, facing east, not on a beeperThe end state for MidpointKarel
+//Note that the final configuration of the world should have only a single beeper at the midpoint of 1st Street. Along the way, Karel is allowed to place additional beepers wherever it wants to, but must pick them all up again before it finishes. Similarly, if Karel paints/colors any of the corners in the world, they must all be uncolored before Karel finishes.
+
+//In solving this problem, you may count on the following facts about the world:
+
+//Karel starts at 1st Avenue and 1st Street, facing east, with an infinite number of beepers in its bag.
+//The initial state of the world includes no interior walls or beepers.
+//The world need not be square, but you may assume that it is at least as tall as it is wide.
+//Your program, moreover, can assume the following simplifications:
+
+//If the width of the world is odd, Karel must put the beeper in the center square. If the width is even, Karel may drop the beeper on either of the two center squares.
+//It does not matter which direction Karel is facing at the end of the program.
+//There are many different algorithms you can use to solve this problem so feel free to be creative!
+
+//Your final task is to teach
+//Karel to find the midpoint
+//of any world. You can assume
+//that all worlds are square.
+
+//helper function: Karel go to world's corner
+function goToWorldCorner() {
+   while(frontIsClear()) {
+		move();
+	}
+}
+
+//helper function: Karel place Beepers in the World's corner
+function markWorldCorners() {
+   goToWorldCorner();
+	putBeeper();
+	turnAround();
+	goToWorldCorner();
+	putBeeper();
+	turnAround();
+	move();
+}
+
+//helper function: Karel moves and place beepers for each beeper present
+function putBeepersDown() {
+   while(noBeepersPresent()) {
+		move();
+		if (beepersPresent()) {
+			turnAround();
+			move();
+			putBeeper();
+			move();
+		}
+	}
+}
+
+//helper function: Karel pick up 1 beeper each but midpoint will have 2 
+function beeperMidpoint() {
+   while (frontIsClear()) {
+		if (beepersPresent()) {
+			pickBeeper();
+		}
+		move();
+	}
+	pickBeeper();
+}
+
+//Karel moves back and forth placing beepers then picking it up once
+function main() {
+   markWorldCorners();
+	putBeepersDown();
+	turnAround();
+	move();
+	putBeeper();
+	turnAround();
+	goToWorldCorner();
+	turnAround();
+	beeperMidpoint();
+}
