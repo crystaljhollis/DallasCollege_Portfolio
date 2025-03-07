@@ -1,0 +1,2 @@
+﻿import arcpy
+arcpy.Clip_analysis("soils", "basin", "soils_Clip")
