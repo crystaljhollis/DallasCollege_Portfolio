@@ -234,3 +234,17 @@ import random
 j = random.uniform(0, 100)
 print(j)
 # Output is a random float between 1 and 100
+
+# CHECK FOR ERRORS
+# 1. Return to the Python Shell. 
+# 2. Run the following code, in which print is intentionally misspelled:
+# >>> pint("Hello World!")
+pint("Hello World!")
+# Results in a NameError: name 'pint' is not defined.
+# 3. Try a small variation of your print statement by running the following code:
+# >>> print("Hello World!)
+print("Hello World!)
+# Results in SyntaxError: unterminated string literal"
+# Steps 4-10 in script, pictures in lab4 document
+
+# The rest of the lab materials / sections are saved in additional scripts in Data/EX04
