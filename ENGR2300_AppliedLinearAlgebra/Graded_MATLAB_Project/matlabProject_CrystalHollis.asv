@@ -1,0 +1,107 @@
+% Crystal Hollis
+% ID 1960743
+% ENGR 2300 Applied Linear Algebra
+% Section 82701
+% Spring 2025 MATLAB Project
+% Date: 3/23/2025
+disp('Crystal Hollis (1960743)');
+disp('ENGR 2300-82701 Applied Linear Algebra');
+disp('Spring 2025 MATLAB Project 3-23-2025');
+disp(' ');
+disp(' ');
+
+%% Problem 1
+% Use MATLAB command A/B to solve the linear system:
+% 16x − 120y + 240z − 140w = −4
+% −120x + 1200y − 2700z + 1680w = 60
+% 240x − 2700y + 6480z − 4200w = −180
+% −140x + 1680y − 4200z + 2800w = 140
+disp('Problem 1: Use MATLAB command A/B to solve the linear system.');
+disp('16x − 120y + 240z − 140w = −4');
+disp('−120x + 1200y − 2700z + 1680w = 60');
+disp('240x − 2700y + 6480z − 4200w = −180');
+disp('−140x + 1680y − 4200z + 2800w = 140');
+
+% Define the coefficient matrix A
+A = [
+    16   -120   240  -140
+   -120   1200 -2700  1680
+    240  -2700  6480 -4200
+   -140   1680 -4200  2800
+];
+disp(' ');
+disp('Coefficient matrix A =');
+disp('[16 −120 240 −140');
+disp('−120 1200 −2700 1680');
+disp('240 −2700 6480 −4200');
+disp('−140 1680 −4200 2800]');
+
+% Define the Constant Vector B
+B = [
+   -4
+    60
+  -180
+   140
+];
+disp(' ');
+disp('Constant Vector B =');
+disp('[-4');
+disp(' 60');
+disp(' −180');
+disp('140]');
+
+% MATLAB command A\B
+X = A \ B;
+
+% Display Solution
+disp(' ');
+disp('Problem 1 Solution: (x, y, z, w) =');
+disp(X); 
+% Output should be Solution (x, y, z, w) = (1, 1, 1, 1)
+
+%% Problem 2
+% Let A be the coefficient matrix and B the right-hand side of the linear
+% system
+% 3x + 3y + 12z = 18
+% x + y + 4z = 6
+% 2x + 5y + 20z = 30
+% -x + 2y + 8z = 12
+disp(' ');
+disp('Problem 2: Let A be the coefficient matrix and B the right-hand side of the linear system');
+disp('3x + 3y + 12z = 18');
+disp('x + y + 4z = 6');
+disp('2x + 5y + 20z = 30');
+disp('-x + 2y + 8z = 12');
+
+% Define the coefficient matrix A
+A = [
+    3   3   12
+    1   1    4
+    2   5   20
+   -1   2    8
+];
+
+disp(' ');
+disp('Coefficient matrix A =');
+disp('[3 3 12');
+disp('1  1 4 ');
+disp('2  5 20');
+disp('−1 2 8]');
+
+% Define the Constant Vector B
+B = [
+   18
+    6
+   30
+   12
+];
+disp(' ');
+disp('Constant Vector B =');
+disp('[18');
+disp(' 6');
+disp(' 30');
+disp('12]');
+
+% MATLAB command C = [A B]
+C = [A B];
+disp('C =[18');
