@@ -8,11 +8,10 @@
 
 # =============================================================================
 # LAB 6 INSTRUCTIONS
-# Legend: [✔] indicates task completed
 # In this lab you will clean two data files. To get started:
 
-# 1. Insert a comment with your name and your favorite holiday. [✔]
-# 2. You will need to load the library "tidyverse" in order to complete this. [✔]
+# 1. Insert a comment with your name and your favorite holiday.
+# 2. You will need to load the library "tidyverse" in order to complete this.
 library(tidyverse)
 
 # 3. You should also make sure that avocados.csv and ramen.csv are both in your 
@@ -28,17 +27,17 @@ getwd()
 
 # =============================================================================
 # Clean the Ramen Data using the attached file ramen-ratings.csv
-# 1.	Read the data from the CSV file into a tibble and display it. [✔]
+# 1.	Read the data from the CSV file into a tibble and display it.
 ramen <- read_csv("ramen-ratings.csv")
 view(ramen) # Opens in RStudio
 # Dataframe should be visible in Environment Window
 # Environment Window: ramen | 2577 obs. of 5 variables
 
-# 2.	Rename the Stars column to Rating. [✔]
+# 2.	Rename the Stars column to Rating.
 ramen <- ramen %>% rename(Rating = Stars)
 # Environment Window: Should show "Rating" column
 
-# 3.	Convert the Style column to the factor type. [✔]
+# 3.	Convert the Style column to the factor type.
 ramen$Style <- as.factor(ramen$Style)
 # Environment Window: Style should have "Factor w/ 7 levels" 
 
@@ -46,12 +45,12 @@ ramen$Style <- as.factor(ramen$Style)
 ramen <- ramen %>% select(-Country)
 # Environment Window: should show 4 variables. Country is removed.
 
-# 5.	Rename the Brand column to Company and the Variety column to Product. [✔]
+# 5.	Rename the Brand column to Company and the Variety column to Product.
 ramen <- ramen %>% rename(Company = Brand, Product = Variety)
 # Environment Window: Brand changed to Company, Variety changed to Product.
 
-# 6.	Display the tibble to make sure your code worked correctly. [✔]
-#     Also, make a note of the number of rows in the tibble. [✔]
+# 6.	Display the tibble to make sure your code worked correctly.
+#     Also, make a note of the number of rows in the tibble.
 print(ramen)                            
 # Outputs: A tibble: 2, 577 × 6
 original_row_count <- nrow(ramen) 
@@ -138,6 +137,6 @@ avocado$Type <- as.factor(avocado$Type)
 # 8.	Display the tibble to make sure your code worked correctly.
 print(avocado)
 
+# =============================================================================
 # 9.  	Save your R script as lastnamelab6 and submit for grading. 
-
 # End of Script
