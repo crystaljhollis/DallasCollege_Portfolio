@@ -1,0 +1,13 @@
+﻿mylyr = arcpy.da.Describe("cities")
+mylyr["dataType"]
+arcpy.da.Describe("cities") ["dataType"]
+myshp = arcpy.da.Describe(r"C:\ProgrammingProjects\GISC2335_ProgrammingForGIS\WeeklyContent\week7\data\Ex06\cities.shp")
+mysp["dataType"]
+myshp["dataType"]
+myshp["datasetType"]
+myshp["file"]
+myshp["shapeType"]
+myshp["spatialReference"]
+myshp["spatialReference"].name
+myshp["spatialreference"].type
+myshp["spatialReference"].type
