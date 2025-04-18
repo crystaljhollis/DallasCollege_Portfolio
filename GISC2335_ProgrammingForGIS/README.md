@@ -1,6 +1,6 @@
 # **GISC2335: Programming for GIS**
 
-Welcome to the repository for **GISC2335: Programming for GIS**, part of the GIS Associate Degree and GIS Technician Certificate programs at Dallas College. This repository contains my completed chapter assignments, portfolio projects, notes, and exercises from the Spring 2025 semester.
+Welcome to the repository for **GISC2335: Programming for GIS**, a GIS (Geographic Information Systems) course at Dallas College. This repository contains my completed chapter assignments, portfolio projects, notes, and exercises from the Spring 2025 semester.
 
 > **Note:** As of **April 2025**, this repository is a **work in progress** as I continue organizing my files and adding project documentation. Updates will be made regularly.
 
