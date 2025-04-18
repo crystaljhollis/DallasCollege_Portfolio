@@ -1,6 +1,6 @@
 ## **Week 3 – Lab 2: Working with Python Editors**
  
-📦 **Package Link:** [Lab 1 Package (ArcGIS Online)](https://arcg.is/1CLPLC2)
+📦 **Package Link:** [Lab 2 Package (ArcGIS Online)](https://arcg.is/1T90iS1)
 
 ---
 
