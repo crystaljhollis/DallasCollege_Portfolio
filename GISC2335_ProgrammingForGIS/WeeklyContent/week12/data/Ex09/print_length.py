@@ -5,5 +5,7 @@ with arcpy.da.SearchCursor(fc, ["SHAPE@LENGTH"]) as cursor:
     length = 0
     for row in cursor:
         length = length + row[0]
-    print(length)
+    desc = arcpy.da.Describe(fc)
+    units = desc["spatialReference"].linearUnitName
+    print(f"{length:.2f} {units}")
     
