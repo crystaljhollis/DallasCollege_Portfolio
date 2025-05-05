@@ -9,7 +9,7 @@
 # Copies of the dataset and exported images are in GitHub ~/Lab8
 # =============================================================================
 
-# LAB 7 INSTRUCTIONS: More Visualization for the Ramen Data
+# LAB 8 INSTRUCTIONS: More Visualization for the Ramen Data
 # =============================================================================
 # 1.	Read the data from the CSV file into a tibble and display it. [✔] 
 
