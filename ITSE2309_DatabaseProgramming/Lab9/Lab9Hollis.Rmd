@@ -1,0 +1,96 @@
+---
+title: "hollislab9"
+author: "Crystal Hollis"
+date: "`r Sys.Date()`"
+output: html_document
+---
+<!-- Name: Crystal Hollis
+Class: ITSE 2300.82700 Database Programming
+Lab 9 Use R Markdown to create a document
+======================================================================
+Dataset Files: numbers.csv in ~/Lab9/data/numbers.csv
+Set current working directory to ~/Lab9/data/
+GitHub: https://github.com/crystaljhollis/DallasCollege_Portfolio/tree/main/ITSE2309_DatabaseProgramming/Lab9 
+# LAB 9 INSTRUCTIONS: Use R Markdown to create a document
+# =============================================================================
+-->
+<!--
+1. Create a new R Markdown file. Delete all of the default text in the file 
+except for the YAML header. [✔] 
+# =============================================================================
+-->
+<!--
+2.	Add a block of code that reads the data file into a tibble, but don’t 
+display the code or any of its warnings or messages in the resulting HTML 
+document. [✔] 
+-->
+```{r load-data, include=FALSE, warning=FALSE, message=FALSE}
+library(tidyverse)
+# Confirming Directory:
+# Current Directory
+getwd()
+# Set Directory:
+# Copy and paste filepath
+setwd("/Users/magnamediaartsllc/GitHub/DallasCollege_Portfolio/ITSE2309_DatabaseProgramming/Lab9/data")
+# Verify Current Directory
+getwd() #should be ~/Lab9/data
+data <- read_csv("numbers.csv")
+```
+<!--
+# =============================================================================
+3.	Add a level-1 heading that says, “Lab 10 R Markdown”. And include your name 
+in this heading. [✔] 
+-->
+# Lab 10 R Markdown – Crystal Hollis
+<!--
+# =============================================================================
+4.	Add a level-2 heading that says, “The Num column”. [✔] 
+-->
+## The Num column
+<!--
+# =============================================================================
+5.	Add text that says, “This code shows the values of the Num column.” 
+Make sure to include the boldface in the Num text. [✔] 
+-->
+This code shows the values of the **Num** column.
+<!--
+# =============================================================================
+6.	Add a block of R code that displays the Num column. In the resulting HTML 
+document, display both the code and the output of the code. [✔] 
+-->
+```{r show-num}
+data$Num
+```
+<!--
+# =============================================================================
+7.	Add a level-2 heading that says, “A plot of the Num and NumSquared 
+columns”. [✔] 
+-->
+## A plot of the Num and NumSquared columns
+<!--
+# =============================================================================
+8.	Add text that says, “This plot shows the relationship between the Num and 
+NumSquared columns.” Make sure to include Num and NumSquared text in bold. [✔] 
+-->
+This plot shows the relationship between the **Num** and **NumSquared** columns.
+<!--
+# =============================================================================
+9.	Add a block of code that creates a line plot with the Num column on the 
+x axis and the NumSquared column on the y axis. In the resulting HTML document, 
+don’t display the code for this block, only the resulting plot.[✔] 
+-->
+```{r plot-num, echo=FALSE}
+ggplot(data, aes(x = Num, y = NumSquared)) +
+  geom_line() +
+  labs(title = " ",
+       x = "Num",
+       y = "NumSquared")
+```
+<!--
+# =============================================================================
+10.	Replace the date in the YAML header with code that displays the 
+current date.[✔] 
+# =============================================================================
+11.	 Submit your file as Lab9lastname.Rmd on Ecampus for grading.
+# =============================================================================
+End of Instructions and Lab 9 -->
