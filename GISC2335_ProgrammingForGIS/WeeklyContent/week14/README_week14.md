@@ -1,7 +1,3 @@
-Here is a **README for Week 15 – Lab 11: Map Scripting**, styled to match your previous week's format:
-
----
-
 ## **Week 15 – Lab 11: Map Scripting**
 
 📦 **Package Links:** 
