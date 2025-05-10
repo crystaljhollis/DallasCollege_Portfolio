@@ -1,0 +1,2 @@
+﻿aprx = arcpy.mp.ArcGISProject("CURRENT")
+print(aprx.defaultGeodatabase)
